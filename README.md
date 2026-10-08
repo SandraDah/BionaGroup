@@ -82,3 +82,5 @@ Feedstock species are confidential and omitted from all technology translations.
 ## Biona concept imagery
 
 Two generated cinematic scenes extend the supplied demo mood: a small modular forest-and-lake Biobruk and a branded freight truck. The official Biona SVG was supplied as a logo reference. The facility image appears on the homepage and Biobruk page; logistics follows the establishment map. Standalone images have localized alt text and AI concept captions. Generation brief: cinematic Swedish industry, forest and water, subdued blue-grey light, green livery, faithful dotted Biona logo, no overlay copy or extra slogans. Created with the built-in image generator. Assets: public/images/biona-biobruk-brand.webp and public/images/biona-transport-brand.webp.
+
+The clean-water resilience image is revised to the same subdued forest-green, blue-grey dusk and warm local-light palette as the Biobruk and logistics concepts. Its glass, river, village and small waterworks composition is retained. Asset: public/images/resilient-sweden-water-brand.webp.

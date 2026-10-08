@@ -73,3 +73,8 @@ No live website deployment or merge is part of this change. Contact is by email 
 - Generated a compact modular Biobruk and a freight truck using the supplied demo mood and official Biona logo references. Revised to subdued forest greens and cinematic light following user feedback.
 - Final production build and TypeScript passed. All nine locale/page combinations reference the intended WebP assets. Detail scenes have localized alt text and AI-concept captions.
 - Swedish Biobruk page visually reviewed and screenshot captured. No mobile browser test claimed.
+
+## Resilience image mood
+
+- Revised the existing glass/river/waterworks/village scene to match the subdued cinematic forest-green palette of the Biobruk and truck images. Copy, localized alt text and concept caption preserved.
+- Production build and TypeScript passed. All three homepage exports reference the new exported image. Swedish section visually reviewed and screenshot captured.
