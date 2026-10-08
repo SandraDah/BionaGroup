@@ -1,7 +1,7 @@
 import type {Metadata} from 'next';
 import Link from 'next/link';
 import {notFound} from 'next/navigation';
-import {copy,isLang,isSlug,languages,slugs,type Lang,type Slug} from '@/lib/content';
+import {copy,isLang,isSlug,languages,leaders,slugs,type Lang,type Slug} from '@/lib/content';
 import {Breadcrumb,Callout,Loop,People} from '@/components/Site';
 import EstablishmentNetwork from '@/components/EstablishmentNetwork';
 import {carbonCopy} from '@/lib/carbon';
@@ -21,4 +21,4 @@ export default async function Detail({params}:{params:Promise<{lang:string;slug:
  {slug==='om-biona'&&<People lang={lang}/>}
  {slug==='aktivt-kol'?<CarbonInvitation lang={lang}/>:slug!=='kontakt'&&<Callout lang={lang}/>}</main>;
 }
-function ContactPanel({lang}:{lang:Lang}){const c=copy[lang];return <div className="contact-panel"><p className="eyebrow">{c.emailLabel}</p><h2>Joacim Sager</h2><p>{c.roles[0]}</p><a className="contact-email" href="mailto:joacim.sager@bionagroup.se">joacim.sager@bionagroup.se</a><p>{c.emailNote}</p><div className="contact-detail">Biona Group AB<br/>559401-2808 · Sverige</div></div>;}
+function ContactPanel({lang}:{lang:Lang}){const c=copy[lang];return <div className="contact-panel"><p className="eyebrow">{c.emailLabel}</p>{leaders.map((person,i)=><div className="contact-leader" key={person.email}><h2>{person.name}</h2><p>{c.roles[i]}</p><a className="contact-email" href={`mailto:${person.email}`}>{person.email}</a></div>)}<p>{c.emailNote}</p><div className="contact-detail">Biona Group AB<br/>559401-2808 · Sverige</div></div>;}

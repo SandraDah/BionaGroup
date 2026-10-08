@@ -83,3 +83,8 @@ No live website deployment or merge is part of this change. Contact is by email 
 
 - Approved homepage headline and introduction implemented in Swedish, English and German. Product action opens activated carbon; film action remains #film. Quality-test/November 2026 status follows the actions.
 - Production build and TypeScript passed. All three exports checked for one H1, product/film actions, launch status and no BET values in the hero. Swedish desktop layout visually reviewed and screenshot captured.
+
+## Direct leadership contact
+
+- Five user-supplied email addresses are present on all localized home, About and Contact pages. Homepage/About each have five individual mailto contact buttons with person-specific accessible labels. No messages sent during verification.
+- Visible image captions now say Concept image/Konceptbild/Konzeptbild. Production build and TypeScript passed. Swedish leadership cards visually reviewed; long-address line breaking improved.

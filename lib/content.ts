@@ -83,11 +83,11 @@ de: {
 }
 } as const;
 export const leaders = [
- {name:'Joacim Sager', portrait:'joacim-sager.webp'},
- {name:'Sandra Dahlberg', portrait:'sandra-dahlberg.webp'},
- {name:'Tina Sager', portrait:'tina-sager.webp'},
- {name:'Joakim Söndergaard', portrait:'joakim-sondergaard.webp'},
- {name:'Mattias Jonsson', portrait:'mattias-jonsson.webp'}
+ {name:'Joacim Sager', portrait:'joacim-sager.webp', email:'joacim.sager@bionagroup.se'},
+ {name:'Sandra Dahlberg', portrait:'sandra-dahlberg.webp', email:'sandra.dahlberg@bionagroup.se'},
+ {name:'Tina Sager', portrait:'tina-sager.webp', email:'christina.sager@bionagroup.se'},
+ {name:'Joakim Söndergaard', portrait:'joakim-sondergaard.webp', email:'joacim.sondergaard@bionagroup.se'},
+ {name:'Mattias Jonsson', portrait:'mattias-jonsson.webp', email:'mattias.jonsson@bionagroup.se'}
 ];
 export function isLang(value:string): value is Lang { return languages.includes(value as Lang); }
 export function isSlug(value:string): value is Slug { return slugs.includes(value as Slug); }

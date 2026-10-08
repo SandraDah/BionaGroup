@@ -88,3 +88,7 @@ The clean-water resilience image is revised to the same subdued forest-green, bl
 ## Benefit-led homepage
 
 The homepage now opens with “Från svensk skog till renare vatten.” and the approved PFAS/local-resilience introduction. Primary action opens activated carbon; the second opens the film section. Ongoing quality testing and planned sales launch November 2026 appear below the actions. BET evidence remains in its dedicated section. All three languages are updated.
+
+## Leadership contact details
+
+All five leadership cards and the contact page include the exact email addresses supplied by Biona. Individual contact buttons use mailto links; no message is sent by the website. Visible concept captions use “Konceptbild” and localized equivalents.
