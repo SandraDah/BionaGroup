@@ -47,3 +47,11 @@ No live website deployment or merge is part of this change. Contact is by email 
 - Natural Earth public-domain Sweden outline with illustrative north/west/east/south hubs, ripple rings and terminal/customer/supplier markers. Named locations removed from all regional lists.
 - Build and TypeScript passed. All three location routes checked for one H1, four accessible filter controls and schematic map explanation; 1,289 internal resources/links/anchors resolve.
 - Swedish location page visually reviewed in browser. Terminal filter sets aria-pressed and dims ten non-terminal markers; full-network control restores all markers. Screenshot captured. No mobile browser run claimed.
+
+## Animated Vision 20/20
+
+- Static network map replaced in place with a user-controlled growth illustration from 1 to 20 potential hubs. No autoplay or geographic commitments.
+- Generated 20 schematic hub coordinates inside the Sweden outline, 19 inter-hub links and 40 collaboration markers.
+- Production build and TypeScript passed; all three location exports have one H1, one initial hub and a localized range input from 1 to 20.
+- Browser verification: playback grew to 15 hubs; pause kept 15 on the next inspection; resume reached exactly 20 and stopped with Replay. Keyboard Home/End selected 1/20 and rendered the matching hub count. Final layout visually reviewed.
+- Reduced-motion handling implemented with matchMedia and CSS, showing 20 static hubs and retaining the slider; this preference was not emulated in browser.

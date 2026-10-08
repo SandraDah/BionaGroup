@@ -66,3 +66,7 @@ Filmen ligger direkt efter huvudvyn. Beredskap beskrivs som Bionas ambition. Den
 ## Etableringsnätverket
 
 Sverigekartan använder Natural Earth 1:110m Admin 0 Countries (public domain), https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip. Nätverk, nav och ringar är schematiska, utan namngivna orter, kunder eller leverantörer. Kartkontrollerna framhäver terminaler, kunder respektive leverantörer. Bildkänslan utgår från användarens Biona-referenser: ljus natur, dämpat grönt, vatten och organiska linjer. Tidigare ortnamn i regionlistorna ersätts med norr, söder, väst och öst.
+
+## Visionens tillväxtanimation
+
+Den tidigare statiska nätverkskartan ersätts på samma plats av en styrbar illustration som växer från 1 till 20 möjliga Biobruk. Uppspelning sker efter klick, kan pausas och återstartas, samt styras med ett tangentbordstillgängligt reglage. Nav, samverkanspunkter och förbindelser växer tillsammans. De 20 navens positioner är schematiska inom landkonturen och visar inte beslutade orter eller en tidplan. Vid prefers-reduced-motion visas 20 nav utan rörelse; reglaget finns kvar.
