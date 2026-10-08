@@ -93,4 +93,4 @@ The homepage now opens with “Från svensk skog till renare vatten.” and the 
 
 All five leadership cards and the contact page include the exact email addresses supplied by Biona. Individual contact buttons use mailto links; no message is sent by the website. Visible concept captions use “Konceptbild” and localized equivalents.
 
-The homepage introduction now highlights treatment of PFAS and pharmaceutical residues and Biona’s goal of 100% fossil-free activated carbon. World-first positioning and complete contaminant removal are not asserted without supporting comparative/process/application evidence.
+The homepage headline now reads “100 % fossilfritt aktivt kol. För PFAS-rening.” at Biona’s explicit request. The fossil-free positioning is user-supplied; lifecycle/process evidence has not been independently verified here. PFAS and pharmaceutical residues remain treatment applications, without a guarantee of complete removal. The Partners page shows official PwC, Setterwalls and Bränna Natur marks sourced from their websites, without investment or certification endorsements.

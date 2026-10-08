@@ -90,3 +90,5 @@ No live website deployment or merge is part of this change. Contact is by email 
 - Visible image captions now say Concept image/Konceptbild/Konzeptbild. Production build and TypeScript passed. Swedish leadership cards visually reviewed; long-address line breaking improved.
 
 Homepage fossil-free introduction: static output verified in Swedish, English and German; Swedish hero visually checked at desktop size. PFAS and pharmaceutical residues are presented as intended treatment applications. 100% fossil-free is qualified as a goal; no unverified world-first or complete removal claims were added.
+
+Headline and partner logos: production build and TypeScript pass. All three home and partner exports checked for revised headline and local logo resources. Swedish homepage and partner row visually verified on desktop. Responsive logo grid stacks on narrow screens. Official source assets: PwC slim-header-v2/PwC-logo.svg; Setterwalls inline header SVG; Bränna Natur WordPress custom-logo PNG. Logo placements and fossil-free positioning explicitly requested by Biona; no unverified investment or certification relationship added.
