@@ -98,3 +98,5 @@ Fossil-free scope clarification: Biona explicitly states that feedstock, manufac
 Pilot invitation: production build and TypeScript pass. All three activated carbon exports verified for section anchor, three steps and Joacim mailto CTA with localized subject. Swedish section visually reviewed with original water concept image and readable contact details. No email sent during verification.
 
 Footer copy: removed development and supply-commitment note at Biona’s request from all three languages and the shared footer. Production build and TypeScript pass; all localized static pages checked for absence of the removed copy.
+
+Partner collaboration scene: production build and TypeScript pass. Three language exports verified for the new image and section. Swedish section visually reviewed. The image is a future cooperation concept, not a documented operating site.
