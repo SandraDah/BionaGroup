@@ -78,3 +78,7 @@ The product page invites municipalities and water utilities to discuss innovatio
 ## Revised network and product copy
 
 Feedstock species are confidential and omitted from all technology translations. Activated-carbon section 3 describes the next validation step positively; the repeated final BET panel is removed. Establishment headlines are distinct. Growth begins schematically in central Sweden, then the southwest and east, with clearly overlapping 28/55/82 rings. Illustrative customer markers span Sweden from the first hub; terminal and partner markers grow with the hubs. Locations remain illustrative.
+
+## Biona concept imagery
+
+Two generated cinematic scenes extend the supplied demo mood: a small modular forest-and-lake Biobruk and a branded freight truck. The official Biona SVG was supplied as a logo reference. The facility image appears on the homepage and Biobruk page; logistics follows the establishment map. Standalone images have localized alt text and AI concept captions. Generation brief: cinematic Swedish industry, forest and water, subdued blue-grey light, green livery, faithful dotted Biona logo, no overlay copy or extra slogans. Created with the built-in image generator. Assets: public/images/biona-biobruk-brand.webp and public/images/biona-transport-brand.webp.

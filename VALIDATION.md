@@ -67,3 +67,9 @@ No live website deployment or merge is part of this change. Contact is by email 
 
 - Production build and TypeScript passed. All technology exports omit the confidential species; product exports omit the final metric panel; location pages use distinct hero and map headings.
 - Browser review: initial national customer points and visible rings; ArrowRight selected two hubs; End displayed 20 hubs with overlapping rings. Partners filter selected successfully and dimmed 27 other markers. Screenshot captured.
+
+## Branded concept scenes
+
+- Generated a compact modular Biobruk and a freight truck using the supplied demo mood and official Biona logo references. Revised to subdued forest greens and cinematic light following user feedback.
+- Final production build and TypeScript passed. All nine locale/page combinations reference the intended WebP assets. Detail scenes have localized alt text and AI-concept captions.
+- Swedish Biobruk page visually reviewed and screenshot captured. No mobile browser test claimed.
