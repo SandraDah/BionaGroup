@@ -70,3 +70,7 @@ Sverigekartan använder Natural Earth 1:110m Admin 0 Countries (public domain), 
 ## Visionens tillväxtanimation
 
 Den tidigare statiska nätverkskartan ersätts på samma plats av en styrbar illustration som växer från 1 till 20 möjliga Biobruk. Uppspelning sker efter klick, kan pausas och återstartas, samt styras med ett tangentbordstillgängligt reglage. Nav, samverkanspunkter och förbindelser växer tillsammans. De 20 navens positioner är schematiska inom landkonturen och visar inte beslutade orter eller en tidplan. Vid prefers-reduced-motion visas 20 nav utan rörelse; reglaget finns kvar.
+
+## Activated carbon and PFAS
+
+The product page invites municipalities and water utilities to discuss innovation procurement and testing. Ongoing extensive quality tests and planned sales launch in November 2026 are provided by Biona. BET values describe reported material tests, not verified PFAS removal performance. No participating municipality, contract or removal percentage is invented. Contact actions lead to the existing contact page. Swedish, English and German copy is included.

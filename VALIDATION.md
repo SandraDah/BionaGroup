@@ -55,3 +55,10 @@ No live website deployment or merge is part of this change. Contact is by email 
 - Production build and TypeScript passed; all three location exports have one H1, one initial hub and a localized range input from 1 to 20.
 - Browser verification: playback grew to 15 hubs; pause kept 15 on the next inspection; resume reached exactly 20 and stopped with Replay. Keyboard Home/End selected 1/20 and rendered the matching hub count. Final layout visually reviewed.
 - Reduced-motion handling implemented with matchMedia and CSS, showing 20 static hubs and retaining the slider; this preference was not emulated in browser.
+
+## Activated carbon and PFAS
+
+- Updated all three product pages and homepage summaries with PFAS treatment, municipal innovation-procurement/testing invitation and planned sales launch November 2026.
+- Production build and TypeScript passed. All three product exports have one H1, five section anchors and valid testing/contact actions.
+- Swedish hero visually reviewed in browser; quality-testing action navigated to #del-2. Screenshot captured. Responsive CSS included; no mobile browser test claimed.
+- Quality tests and launch timing are Biona-provided statements. BET values are not presented as verified PFAS removal results.
