@@ -9,3 +9,14 @@
 - No lab reports were reviewed. Test values and team roles come from user-provided information; launch approval and evidence review remain with Biona.
 
 No live website deployment or merge is part of this change. Contact is by email link; no contact form backend is claimed.
+
+## Brand and film update
+
+- Official Biona SVG paths and favicon retrieved from the existing public biona.se page.
+- Vimeo oEmbed confirms Biona video 1090022360, public embed URL, 59-second duration and original thumbnail.
+- Third-party player is mounted only after the visitor starts the film; direct Vimeo fallback link remains visible.
+- First-party privacy copy updated in all three languages to account for Vimeo.
+
+- Updated production build passed. All 27 routes and 1179 internal links, assets and anchors checked.
+- Browser QA: film creates no iframe before start; after the start click one Vimeo iframe loads and playback was visually verified. Official logo and poster inspected.
+- Locale pages now use a proper localized root document, and the entry and 404 documents use their own layouts.

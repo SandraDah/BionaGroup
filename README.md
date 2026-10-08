@@ -22,7 +22,7 @@ npm run dev
 - `app/globals.css`: design, mobilanpassning och reducerad rörelse.
 - `public/images/biobruk-concept.webp`: optimerad AI-genererad konceptvisualisering.
 
-Samtliga 27 språksidor förgenereras. Språkvalet bevarar aktuell sida. Root-adressen leder till svenska startsidan med manuella språkval som reserv. Navigation, regionernas utfällbara information och kontakt via mailto fungerar utan externa tjänster. Kontaktformulär och nyhetsarkiv är inte implementerade. Inga analysverktyg, spårningscookies eller externa typsnitt används.
+Samtliga 27 språksidor förgenereras. Språkvalet bevarar aktuell sida. Root-adressen leder till svenska startsidan med manuella språkval som reserv. Navigation, regionernas utfällbara information och kontakt via mailto fungerar utan externa tjänster. Kontaktformulär och nyhetsarkiv är inte implementerade. Inga egna analysverktyg eller externa typsnitt används. Vimeo laddas först när besökaren startar filmen.
 
 ## Innehållsstatus och granskning inför publik lansering
 
@@ -48,3 +48,13 @@ npm run build
 ```
 
 Kontrollera dessutom navigation, språkbyte, mobilmeny, regioninformation, kontaktlänk, läsbarhet, tangentbordsfokus och sidornas metadata i webbläsare.
+
+## Officiell identitet och film
+
+Loggan i sidhuvud och sidfot är den befintliga vektorloggan från `https://biona.se/`, extraherad ur den offentliga sidans SVG-resurs `svg-648367983_47370` med oförändrade banor och färger. Favicon är samma PNG-resurs som den befintliga sidan använder. Ersätt inte med en skriven eller AI-genererad logotyp.
+
+Filmen ”Från rest till resurs” är Bionas Vimeo-video: `https://vimeo.com/1090022360` (59 sekunder enligt Vimeos oEmbed-metadata). Förhandsbilden kommer från samma videos officiella metadata. Spelaren laddas först efter ett klick. Den använder Vimeos `dnt=1`; tredjepartsinnehåll förklaras före uppspelning och i sidfoten. En direktlänk till Vimeo finns som reserv.
+
+`components/Film.tsx` innehåller filmsektionen och dess tre språkversioner. Filmen i sig är originalversionen och har inte översatts eller ändrats.
+
+En privat visningsversion publiceras separat för granskning. Ändringen innebär ingen ompekning av biona.se och ingen ändring av den befintliga webbplatsen. Webbplatskod granskas fortsatt i GitHub.
