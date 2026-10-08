@@ -1,0 +1,20 @@
+import Link from 'next/link';
+import { copy, leaders, slugs, type Lang, type Slug } from '@/lib/content';
+import { Brand } from './Header';
+export function Icon({type,className=''}:{type:string;className?:string}) {
+ const shapes:Record<string,React.ReactNode>={
+ leaf:<><path d="M26 6C8 5 4 17 9 24s19 2 17-18Z"/><path d="M7 29 22 12m-8 9-1-7m5 3 6 1"/></>,
+ factory:<><path d="M4 28V15l8 5v-8l8 6V9h7v19H4Z"/><path d="M20 9V4h7v5M8 24h2m6 0h2m6 0h2"/></>,
+ carbon:<><path d="m16 3 12 7v14l-12 7-12-7V10Z"/><path d="m4 10 12 7 12-7M16 17v14M10 6l12 7v14"/></>,
+ water:<><path d="M16 3S6 15 6 21a10 10 0 0 0 20 0c0-6-10-18-10-18Z"/><path d="M11 21a5 5 0 0 0 5 5"/></>,
+ loop:<><path d="M27 13A11 11 0 0 0 7 7l-3 6m1 0h7M5 19a11 11 0 0 0 20 6l3-6m-1 0h-7"/></>,
+ hydrogen:<><circle cx="16" cy="16" r="13"/><path d="M10 10v12m9-12v12m-9-6h9"/><path d="M23 21h4l-4 5h4"/></>
+ };
+ return <svg className={className} aria-hidden="true" viewBox="0 0 32 34" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">{shapes[type]||shapes.leaf}</svg>;
+}
+export function Footer({lang}:{lang:Lang}) { const c=copy[lang];return <footer className="footer"><div className="container"><div className="footer-top"><Brand lang={lang}/><p>{c.footer}</p></div><div className="footer-links">{slugs.map((s,i)=><Link key={s} href={`/${lang}/${s}/`}>{c.nav[i]}</Link>)}</div><div className="footer-bottom"><span>© {new Date().getFullYear()} Biona Group AB</span><span>559401-2808 · Sverige</span><span>{c.rights}</span></div><p className="footer-note">{c.note}</p><p className="footer-note">{c.privacy}</p></div></footer>; }
+export function Callout({lang}:{lang:Lang}) {const c=copy[lang];return <section className="callout"><div className="container callout-grid"><div><p className="eyebrow">{c.ctaLabel}</p><h2 className="line-break">{c.cta}</h2></div><div><p>{c.ctaBody}</p><Link className="button button-copper" href={`/${lang}/kontakt/`}>{c.contact}</Link></div></div></section>;}
+export function Loop({lang}:{lang:Lang}) {const c=copy[lang];return <div className="loop"><p className="eyebrow">{c.loopLabel}</p><ol>{c.loop.map((title,i)=><li key={title}><span className="step-number">0{i+1}</span><Icon type={['leaf','factory','carbon','water','loop'][i]}/><h3>{title}</h3><p>{c.loopBody[i]}</p></li>)}</ol></div>;}
+export function People({lang}:{lang:Lang}) {const c=copy[lang];return <section className="people section"><div className="container"><div className="section-heading"><div><p className="eyebrow">{c.peopleLabel}</p><h2 className="line-break">{c.peopleTitle}</h2></div><p>{c.peopleBody}</p></div><div className="people-grid">{leaders.map((person,i)=><article className="person" key={person.name}><span className="person-monogram" aria-hidden="true">{person.initials}</span><div><h3>{person.name}</h3><p>{c.roles[i]}</p></div><span className="person-index">0{i+1}</span></article>)}</div></div></section>;}
+export function Regions({lang}:{lang:Lang}) {const c=copy[lang];return <div className="region-list"><p className="eyebrow">{c.regionsLabel}</p>{c.regions.map((title,i)=><details key={title}><summary><span>0{i+1}</span>{title}<span className="plus" aria-hidden="true"/></summary><p>{c.regionBodies[i]}</p></details>)}</div>;}
+export function Breadcrumb({lang,slug}:{lang:Lang;slug:Slug}) {return <nav className="breadcrumb" aria-label={lang==='sv'?'Brödsmulor':lang==='de'?'Brotkrumennavigation':'Breadcrumb'}><Link href={`/${lang}/`}>Biona Group</Link><span aria-hidden="true">/</span><span>{copy[lang].nav[slugs.indexOf(slug)]}</span></nav>;}
