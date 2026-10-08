@@ -65,7 +65,7 @@ Filmen ligger direkt efter huvudvyn. Beredskap beskrivs som Bionas ambition. Den
 
 ## Etableringsnätverket
 
-Sverigekartan använder Natural Earth 1:110m Admin 0 Countries (public domain), https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip. Nätverk, nav och ringar är schematiska, utan namngivna orter, kunder eller leverantörer. Kartkontrollerna framhäver terminaler, kunder respektive leverantörer. Bildkänslan utgår från användarens Biona-referenser: ljus natur, dämpat grönt, vatten och organiska linjer. Tidigare ortnamn i regionlistorna ersätts med norr, söder, väst och öst.
+Sverigekartan använder Natural Earth 1:110m Admin 0 Countries (public domain), https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip. Nätverk, nav och ringar är schematiska, utan namngivna orter, kunder eller partners. Kartkontrollerna framhäver terminaler, kunder respektive partners. Bildkänslan utgår från användarens Biona-referenser: ljus natur, dämpat grönt, vatten och organiska linjer. Tidigare ortnamn i regionlistorna ersätts med norr, söder, väst och öst.
 
 ## Visionens tillväxtanimation
 
@@ -74,3 +74,7 @@ Den tidigare statiska nätverkskartan ersätts på samma plats av en styrbar ill
 ## Activated carbon and PFAS
 
 The product page invites municipalities and water utilities to discuss innovation procurement and testing. Ongoing extensive quality tests and planned sales launch in November 2026 are provided by Biona. BET values describe reported material tests, not verified PFAS removal performance. No participating municipality, contract or removal percentage is invented. Contact actions lead to the existing contact page. Swedish, English and German copy is included.
+
+## Revised network and product copy
+
+Feedstock species are confidential and omitted from all technology translations. Activated-carbon section 3 describes the next validation step positively; the repeated final BET panel is removed. Establishment headlines are distinct. Growth begins schematically in central Sweden, then the southwest and east, with clearly overlapping 28/55/82 rings. Illustrative customer markers span Sweden from the first hub; terminal and partner markers grow with the hubs. Locations remain illustrative.

@@ -62,3 +62,8 @@ No live website deployment or merge is part of this change. Contact is by email 
 - Production build and TypeScript passed. All three product exports have one H1, five section anchors and valid testing/contact actions.
 - Swedish hero visually reviewed in browser; quality-testing action navigated to #del-2. Screenshot captured. Responsive CSS included; no mobile browser test claimed.
 - Quality tests and launch timing are Biona-provided statements. BET values are not presented as verified PFAS removal results.
+
+## Network clarity and confidential feedstock
+
+- Production build and TypeScript passed. All technology exports omit the confidential species; product exports omit the final metric panel; location pages use distinct hero and map headings.
+- Browser review: initial national customer points and visible rings; ArrowRight selected two hubs; End displayed 20 hubs with overlapping rings. Partners filter selected successfully and dimmed 27 other markers. Screenshot captured.
