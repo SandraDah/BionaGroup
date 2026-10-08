@@ -34,3 +34,10 @@ No live website deployment or merge is part of this change. Contact is by email 
 - The supplied PwC presentation has no numerical BET report or international benchmark. Test values remain Biona-provided information from the existing site content; the result panel explicitly distinguishes this from published laboratory evidence.
 
 - Final production build and TypeScript passed; six localized home/About pages checked for five portrait assets, matching names/alt text, results anchor and three material facts. Portraits visually checked in browser before the daylight update. Latest browser verification was blocked by a browser URL policy after the supervised preview restarted; no final desktop/mobile screenshot is claimed.
+
+## Early film and resilience story
+
+- Film is the first section after the hero in Swedish, English and German.
+- New section describes resilient Sweden and clean water as Biona’s ambition, supported by local resources, customer validation and planned industrial capacity.
+- New AI-generated landscape image visually reviewed; it is clearly captioned as a concept and has localized alt text, explicit dimensions and lazy loading.
+- Production build and TypeScript passed. All 1,265 internal links, resources and anchors resolve. Homepage section order checked for each locale. Responsive rules are present; a new browser screenshot was not taken.

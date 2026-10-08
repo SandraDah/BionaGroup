@@ -58,3 +58,7 @@ Filmen ”Från rest till resurs” är Bionas Vimeo-video: `https://vimeo.com/1
 `components/Film.tsx` innehåller filmsektionen och dess tre språkversioner. Filmen i sig är originalversionen och har inte översatts eller ändrats.
 
 En privat visningsversion publiceras separat för granskning. Ändringen innebär ingen ompekning av biona.se och ingen ändring av den befintliga webbplatsen. Webbplatskod granskas fortsatt i GitHub.
+
+## Beredskap och rent vatten
+
+Filmen ligger direkt efter huvudvyn. Beredskap beskrivs som Bionas ambition. Den nya konceptbilden `public/images/resilient-sweden-water.webp` skapades med ImageGen: ett glas rent vatten, svensk skog, vattendrag och lokal industri i ljust naturligt dagsljus, utan text eller logotyper. Den är märkt som AI-genererad konceptbild, inte dokumentation av en befintlig anläggning.
