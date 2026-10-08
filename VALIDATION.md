@@ -78,3 +78,8 @@ No live website deployment or merge is part of this change. Contact is by email 
 
 - Revised the existing glass/river/waterworks/village scene to match the subdued cinematic forest-green palette of the Biobruk and truck images. Copy, localized alt text and concept caption preserved.
 - Production build and TypeScript passed. All three homepage exports reference the new exported image. Swedish section visually reviewed and screenshot captured.
+
+## Benefit-led hero
+
+- Approved homepage headline and introduction implemented in Swedish, English and German. Product action opens activated carbon; film action remains #film. Quality-test/November 2026 status follows the actions.
+- Production build and TypeScript passed. All three exports checked for one H1, product/film actions, launch status and no BET values in the hero. Swedish desktop layout visually reviewed and screenshot captured.
