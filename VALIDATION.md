@@ -41,3 +41,9 @@ No live website deployment or merge is part of this change. Contact is by email 
 - New section describes resilient Sweden and clean water as Biona’s ambition, supported by local resources, customer validation and planned industrial capacity.
 - New AI-generated landscape image visually reviewed; it is clearly captioned as a concept and has localized alt text, explicit dimensions and lazy loading.
 - Production build and TypeScript passed. All 1,265 internal links, resources and anchors resolve. Homepage section order checked for each locale. Responsive rules are present; a new browser screenshot was not taken.
+
+## Establishment network
+
+- Natural Earth public-domain Sweden outline with illustrative north/west/east/south hubs, ripple rings and terminal/customer/supplier markers. Named locations removed from all regional lists.
+- Build and TypeScript passed. All three location routes checked for one H1, four accessible filter controls and schematic map explanation; 1,289 internal resources/links/anchors resolve.
+- Swedish location page visually reviewed in browser. Terminal filter sets aria-pressed and dims ten non-terminal markers; full-network control restores all markers. Screenshot captured. No mobile browser run claimed.

@@ -62,3 +62,7 @@ En privat visningsversion publiceras separat för granskning. Ändringen innebä
 ## Beredskap och rent vatten
 
 Filmen ligger direkt efter huvudvyn. Beredskap beskrivs som Bionas ambition. Den nya konceptbilden `public/images/resilient-sweden-water.webp` skapades med ImageGen: ett glas rent vatten, svensk skog, vattendrag och lokal industri i ljust naturligt dagsljus, utan text eller logotyper. Den är märkt som AI-genererad konceptbild, inte dokumentation av en befintlig anläggning.
+
+## Etableringsnätverket
+
+Sverigekartan använder Natural Earth 1:110m Admin 0 Countries (public domain), https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip. Nätverk, nav och ringar är schematiska, utan namngivna orter, kunder eller leverantörer. Kartkontrollerna framhäver terminaler, kunder respektive leverantörer. Bildkänslan utgår från användarens Biona-referenser: ljus natur, dämpat grönt, vatten och organiska linjer. Tidigare ortnamn i regionlistorna ersätts med norr, söder, väst och öst.
