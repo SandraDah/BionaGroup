@@ -20,3 +20,17 @@ No live website deployment or merge is part of this change. Contact is by email 
 - Updated production build passed. All 27 routes and 1179 internal links, assets and anchors checked.
 - Browser QA: film creates no iframe before start; after the start click one Vimeo iframe loads and playback was visually verified. Official logo and poster inspected.
 - Locale pages now use a proper localized root document, and the entry and 404 documents use their own layouts.
+
+## Leadership portraits
+
+- Five original portraits extracted from the supplied Company Presentation Biona v3, PDF page 6 (printed page 5); names and roles matched to their labelled columns.
+- Founding roles included and Joakim Söndergaard and Mattias Jonsson added in Swedish, English and German.
+- Responsive portrait cards shared by home and About Biona; explicit image dimensions, lazy loading and descriptive alt text.
+
+## Daylight palette and reported results
+
+- Warm off-white backgrounds, sage-green sections, dark-green text and matching original-logo treatment applied across all locales and detail pages.
+- Hero leads with the existing Biona-reported BET interval, 1 250–1 280 m²/g; result section moved directly below hero. No world ranking is asserted.
+- The supplied PwC presentation has no numerical BET report or international benchmark. Test values remain Biona-provided information from the existing site content; the result panel explicitly distinguishes this from published laboratory evidence.
+
+- Final production build and TypeScript passed; six localized home/About pages checked for five portrait assets, matching names/alt text, results anchor and three material facts. Portraits visually checked in browser before the daylight update. Latest browser verification was blocked by a browser URL policy after the supervised preview restarted; no final desktop/mobile screenshot is claimed.

@@ -30,7 +30,7 @@ Webbversionen utgår från Sandras tillhandahållna underlag. BET 1 250–1 280 
 
 Vision 20/20 är ett långsiktigt mål. Vätgas genom elektrolys är ett planerat utvecklingsområde. Returflöden och regenerering beskrivs som under utvärdering. Klimatnytta behöver underbyggas för respektive anläggning.
 
-Ledning visas med namn och roller. Inga syntetiska porträtt eller påhittade personcitat används. Lägg till godkända originalporträtt senare. Kontaktlänk går till Joacim Sagers adress från det tillhandahållna underlaget.
+Ledningen visas med fem namn, roller och originalporträtt från den tillhandahållna PwC-presentationen, ”Company Presentation Biona v3”, PDF-sida 6 (tryckt sida 5). Porträtten extraheras från respektive namngiven kolumn och sparas som WebP utan ändringar av personernas utseende. Samma sektion används på startsidan och Om Biona i alla tre språk. Kontaktlänk går till Joacim Sagers adress från det tillhandahållna underlaget.
 
 Inför officiell lansering bör Biona godkänna produkttexter, tester, roller, kontaktadress och språkversioner samt komplettera faktaunderlaget. Sidan ska inte användas för att utlova volymer eller klimatprestanda utan verifierade specifikationer.
 
