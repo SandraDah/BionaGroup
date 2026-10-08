@@ -14,7 +14,7 @@ export async function generateMetadata({params}:{params:Promise<{lang:string;slu
 export default async function Detail({params}:{params:Promise<{lang:string;slug:string}>}){
  const {lang,slug}=await params;if(!isLang(lang)||!isSlug(slug))notFound();const c=copy[lang];const a=c.articles[slug];
  return <main id="main"><section className="detail-hero">
- <div className="container"><Breadcrumb lang={lang} slug={slug}/><p className="eyebrow">{a.label}</p><h1 className="line-break">{a.title}</h1><p className="detail-intro">{a.intro}</p>{slug==='aktivt-kol'&&<div className="carbon-hero-action"><p className="carbon-launch">{carbonCopy[lang].launch}</p><div className="hero-buttons"><Link className="button button-copper" href={`/${lang}/kontakt/`}>{carbonCopy[lang].join}</Link><a className="button button-outline" href="#del-2">{carbonCopy[lang].tests}</a></div></div>}</div></section>
+ <div className="container"><Breadcrumb lang={lang} slug={slug}/><p className="eyebrow">{a.label}</p><h1 className="line-break">{a.title}</h1><p className="detail-intro">{a.intro}</p>{slug==='aktivt-kol'&&<div className="carbon-hero-action"><p className="carbon-launch">{carbonCopy[lang].launch}</p><div className="hero-buttons"><a className="button button-copper" href="#pilotprovning">{carbonCopy[lang].join}</a><a className="button button-outline" href="#del-2">{carbonCopy[lang].tests}</a></div></div>}</div></section>
  {slug==='partners'&&<PartnerLogos lang={lang}/>}
  {slug==='biobruk'&&<BrandScene lang={lang} scene="biobruk"/>}
  {slug==='etableringar'&&<><EstablishmentNetwork lang={lang}/><BrandScene lang={lang} scene="transport"/></>}

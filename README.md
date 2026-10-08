@@ -96,3 +96,5 @@ All five leadership cards and the contact page include the exact email addresses
 The homepage headline now reads “100 % fossilfritt aktivt kol. För PFAS-rening.” at Biona’s explicit request. The fossil-free positioning is user-supplied; lifecycle/process evidence has not been independently verified here. PFAS and pharmaceutical residues remain treatment applications, without a guarantee of complete removal. The Partners page shows official PwC, Setterwalls and Bränna Natur marks sourced from their websites, without investment or certification endorsements.
 
 Biona clarified on 2026-10-08 that the 100% fossil-free statement covers feedstock, manufacturing and energy. This scope is now explicit in the homepage introduction in all three languages. It does not extend the claim to transport.
+
+Activated carbon now includes a three-step pilot invitation for municipalities and water utilities, with Joacim Sager as contact. The top testing CTA anchors to this section; the invitation CTA opens an email with a localized subject. Existing concept water image reused.
