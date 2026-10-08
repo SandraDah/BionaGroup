@@ -88,3 +88,5 @@ No live website deployment or merge is part of this change. Contact is by email 
 
 - Five user-supplied email addresses are present on all localized home, About and Contact pages. Homepage/About each have five individual mailto contact buttons with person-specific accessible labels. No messages sent during verification.
 - Visible image captions now say Concept image/Konceptbild/Konzeptbild. Production build and TypeScript passed. Swedish leadership cards visually reviewed; long-address line breaking improved.
+
+Homepage fossil-free introduction: static output verified in Swedish, English and German; Swedish hero visually checked at desktop size. PFAS and pharmaceutical residues are presented as intended treatment applications. 100% fossil-free is qualified as a goal; no unverified world-first or complete removal claims were added.
