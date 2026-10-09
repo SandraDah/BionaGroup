@@ -100,3 +100,5 @@ Pilot invitation: production build and TypeScript pass. All three activated carb
 Footer copy: removed development and supply-commitment note at Biona’s request from all three languages and the shared footer. Production build and TypeScript pass; all localized static pages checked for absence of the removed copy.
 
 Partner collaboration scene: production build and TypeScript pass. Three language exports verified for the new image and section. Swedish section visually reviewed. The image is a future cooperation concept, not a documented operating site.
+
+Granular carbon bulk bag image: generated artwork visually inspected for Biona mark, GRANULAT and 500 kg text, lifting loops, pallet and visible granules. Production build and TypeScript pass. All three activated carbon exports verified for the concept asset.

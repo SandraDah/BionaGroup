@@ -100,3 +100,5 @@ Biona clarified on 2026-10-08 that the 100% fossil-free statement covers feedsto
 Activated carbon now includes a three-step pilot invitation for municipalities and water utilities, with Joacim Sager as contact. The top testing CTA anchors to this section; the invitation CTA opens an email with a localized subject. Existing concept water image reused.
 
 Partners now includes an original collaboration concept image under the official logos: compact Biobruk, forestry equipment, truck, service van and technicians. The scene uses Biona’s established muted dusk colours and a Concept image caption. Four partner categories and a contact CTA are localized.
+
+Activated carbon page shows a conceptual Biona-branded 500 kg FIBC with visible granular activated carbon directly below the introduction. Official logo and established dusk imagery used as references. Caption and alt text localized; package is a visual concept, not a new delivery commitment.
