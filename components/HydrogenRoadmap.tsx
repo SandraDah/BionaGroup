@@ -1,0 +1,3 @@
+import type {Lang} from '@/lib/content';
+import {hydrogenRoadmap} from '@/lib/hydrogen';
+export default function HydrogenRoadmap({lang}:{lang:Lang}){const c=hydrogenRoadmap[lang];return <section className="hydrogen-roadmap section" aria-labelledby="hydrogen-roadmap-title"><div className="container"><p className="eyebrow">{c.label}</p><h2 className="line-break" id="hydrogen-roadmap-title">{c.title}</h2><ol className="hydrogen-stages">{c.steps.map(([title,body],i)=><li key={title}><span className="hydrogen-stage-number" aria-hidden="true">0{i+1}</span><h3>{title}</h3><p>{body}</p></li>)}</ol></div></section>}

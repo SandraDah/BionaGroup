@@ -102,3 +102,6 @@ Activated carbon now includes a three-step pilot invitation for municipalities a
 Partners now includes an original collaboration concept image under the official logos: compact Biobruk, forestry equipment, truck, service van and technicians. The scene uses Biona’s established muted dusk colours and a Concept image caption. Four partner categories and a contact CTA are localized.
 
 Activated carbon page shows a conceptual Biona-branded 500 kg FIBC with visible granular activated carbon directly below the introduction. Official logo and established dusk imagery used as references. Caption and alt text localized; package is a visual concept, not a new delivery commitment.
+
+## Hydrogen development roadmap
+Hydrogen is described as stage two at selected Biobruk. The first establishment creates prerequisites for activated carbon; integrated Biobruk planning is already underway. A localized three-stage roadmap is available in Swedish, English and German.

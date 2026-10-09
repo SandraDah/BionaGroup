@@ -102,3 +102,9 @@ Footer copy: removed development and supply-commitment note at Biona’s request
 Partner collaboration scene: production build and TypeScript pass. Three language exports verified for the new image and section. Swedish section visually reviewed. The image is a future cooperation concept, not a documented operating site.
 
 Granular carbon bulk bag image: generated artwork visually inspected for Biona mark, GRANULAT and 500 kg text, lifting loops, pallet and visible granules. Production build and TypeScript pass. All three activated carbon exports verified for the concept asset.
+
+## 2026-10-09: Hydrogen roadmap
+- Production build and TypeScript checks passed (30 exported routes).
+- Swedish hydrogen page inspected in browser: connected three-stage roadmap and localized article content render correctly.
+- All three hydrogen exports include the roadmap; mobile layout uses a vertical connecting line.
+- No production dates or completed hydrogen capability claimed.
