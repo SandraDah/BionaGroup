@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { copy, languages, slugs, type Lang } from '@/lib/content';
-export function Brand({lang}:{lang:Lang}) { return <Link className="brand" href={`/${lang}/`} aria-label="Biona Group"><span>BIO<span className="brand-o">N</span>A <span className="brand-light">GROUP</span></span><small>A CIRCULAR INDUSTRIAL VISION</small></Link>; }
+export function Brand({lang}:{lang:Lang}) { return <Link className="brand" href={`/${lang}/`} aria-label="Biona Group"><img src="/brand/biona-logo.svg" alt="Biona" width="315" height="80"/><small>A CARBON LOOP SYSTEMS COMPANY™</small></Link>; }
 export default function Header({lang}:{lang:Lang}) {
  const [open,setOpen]=useState(false); const path=usePathname(); const c=copy[lang];
  return <><a className="skip-link" href="#main">{c.skip}</a><header className="header"><div className="header-inner"><Brand lang={lang}/><nav aria-label={lang==='sv'?'Huvudmeny':lang==='de'?'Hauptnavigation':'Main navigation'} className={`navigation ${open?'is-open':''}`}>

@@ -1,3 +1,6 @@
+import '../globals.css';
+import {metadata as siteMetadata} from '@/lib/metadata';
+export const metadata=siteMetadata;
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import { Footer } from '@/components/Site';
