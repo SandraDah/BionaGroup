@@ -85,9 +85,13 @@ de: {
 export const leaders = [
  {name:'Joacim Sager', portrait:'joacim-sager.webp', email:'joacim.sager@bionagroup.se'},
  {name:'Sandra Dahlberg', portrait:'sandra-dahlberg.webp', email:'sandra.dahlberg@bionagroup.se'},
- {name:'Tina Sager', portrait:'tina-sager.webp', email:'christina.sager@bionagroup.se'},
- {name:'Joakim Söndergaard', portrait:'joakim-sondergaard.webp', email:'joacim.sondergaard@bionagroup.se'},
+ {name:'Christina Sager', portrait:'tina-sager.webp', email:'tina.sager@bionagroup.se'},
+ {name:'Rekrytering pågår', portrait:'recruitment-placeholder.svg', email:''},
  {name:'Mattias Jonsson', portrait:'mattias-jonsson.webp', email:'mattias.jonsson@bionagroup.se'}
 ];
 export function isLang(value:string): value is Lang { return languages.includes(value as Lang); }
 export function isSlug(value:string): value is Slug { return slugs.includes(value as Slug); }
+
+export function leaderDisplayName(person: (typeof leaders)[number], lang: Lang) {
+ return person.name === 'Rekrytering pågår' ? {sv:'Rekrytering pågår',en:'Recruitment in progress',de:'Position zu besetzen'}[lang] : person.name;
+}
