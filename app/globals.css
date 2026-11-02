@@ -64,9 +64,40 @@
 
 .person>div{min-width:0;width:100%}.person-email{display:block;margin-top:15px;font-size:.875rem;line-height:1.6;overflow-wrap:anywhere;color:var(--green)}.person-email:hover{text-decoration:underline}.person-contact{display:inline-flex;margin-top:14px;min-height:44px;padding:10px 18px;font-size:.875rem}.contact-leader{padding-bottom:24px;margin-bottom:24px;border-bottom:1px solid var(--line)}.contact-email{overflow-wrap:anywhere}
 
-/* Partner marks retain their original artwork and colours. */
-.partner-logos{padding:54px 0 60px;background:#f7f7f2;border-bottom:1px solid var(--line)}.partner-logos h2{font-size:clamp(2rem,3vw,3rem);margin-bottom:30px}.partner-logo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.partner-logo{min-height:176px;display:flex;align-items:center;justify-content:center;padding:28px;background:#fff;border:1px solid var(--line);transition:border-color .2s}.partner-logo:hover{border-color:var(--copper)}.partner-logo img{display:block;width:100%;max-width:235px;height:100px;object-fit:contain}.partner-logo.pwc img{max-width:125px}.partner-logo.branna img{max-width:215px}.hero h1{max-width:850px;font-size:clamp(2.8rem,4.7vw,4.7rem)}
-@media(max-width:700px){.partner-logos{padding:38px 0}.partner-logo-grid{grid-template-columns:1fr;gap:14px}.partner-logo{min-height:140px;padding:24px}.partner-logo img{height:85px}.hero h1{font-size:clamp(2.4rem,8vw,3.7rem)}}
+/* Let narrow screens and enlarged text reflow without clipping content. */
+main,footer{overflow-wrap:anywhere}
+h1,h2,h3,h4{overflow-wrap:anywhere;hyphens:auto}
+.button{max-width:100%;text-align:center;white-space:normal}
+.focus-grid>*,.vision-grid>*,.callout-grid>*,.article-layout>*,.network-layout>*,.carbon-invitation-grid>*{min-width:0}
+@media(max-width:700px){
+ .navigation{top:100%;max-height:calc(100vh - 90px);max-height:calc(100dvh - 90px);overscroll-behavior:contain}
+ .languages{gap:0}
+ .languages a{display:flex;align-items:center;justify-content:center;min-width:36px;min-height:44px;font-size:.8125rem;padding:6px 4px}
+ .header-inner{gap:8px}
+ .header-actions{gap:4px}
+ .brand>img{width:clamp(100px,30vw,150px)}
+ .header .brand{width:clamp(100px,30vw,150px);min-width:0}
+ .header .brand small{display:none}
+ .hero-buttons>.button{flex:1 1 180px}
+ .measurement-number{font-size:clamp(1.8rem,8.5vw,3rem);white-space:normal}
+ .measurement{padding:24px}
+ .contact-panel{padding:22px}
+ .film-caption>a{display:inline-flex;align-items:center;min-height:44px;white-space:normal}
+ .footer-links a{display:inline-flex;align-items:center;min-height:44px}
+ .footer-links{gap:4px 24px}
+}
+@media(max-width:600px){
+ .people-grid{grid-template-columns:minmax(0,1fr);gap:0}
+ .person{display:grid;grid-template-columns:clamp(72px,22vw,96px) minmax(0,1fr);align-items:start;gap:20px;padding:24px 0}
+ .person-portrait{width:100%;max-width:96px}
+ .person h3{font-size:1.5rem}
+ .person p,.person-email{font-size:.9375rem}
+ .person-contact{max-width:100%}
+}
+
+/* Invitation to collaborate. */
+.partner-invitation{padding:54px 0 60px;background:#f7f7f2;border-bottom:1px solid var(--line)}.partner-invitation h2{max-width:850px;font-size:clamp(2rem,3vw,3rem);margin-bottom:22px}.partner-invitation-body{max-width:760px;margin-bottom:28px;line-height:1.7}.hero h1{max-width:850px;font-size:clamp(2.8rem,4.7vw,4.7rem)}
+@media(max-width:700px){.partner-invitation{padding:38px 0}.hero h1{font-size:clamp(2.4rem,8vw,3.7rem)}}
 
 #pilotprovning{scroll-margin-top:120px}.carbon-invitation-grid{align-items:start;gap:65px}.pilot-water-image{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;margin-top:32px}.pilot-image-caption{display:block;font-size:.8125rem;color:var(--muted);margin-top:10px}.pilot-intro>p{font-size:1.0625rem;line-height:1.8;margin:0 0 20px}.pilot-intro>h3{font-size:1.5rem;margin:30px 0 20px}.pilot-steps{padding:0;margin:0;list-style:none}.pilot-steps li{display:flex;gap:20px;padding:20px 0;border-top:1px solid var(--line)}.pilot-step-number{color:var(--copper);font-size:1rem;line-height:1.6}.pilot-steps h4{font-size:1.0625rem;line-height:1.5;margin:0 0 6px}.pilot-steps p{color:var(--muted);font-size:1rem;line-height:1.7;margin:0}.pilot-intro>.pilot-status{font-size:.9375rem;margin:18px 0 24px}.pilot-contact{display:flex;flex-direction:column;gap:6px;margin-top:22px;font-size:1rem;line-height:1.5}.pilot-contact span{color:var(--muted)}.pilot-contact a{color:#1b4331;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}@media(max-width:700px){.carbon-invitation-grid{gap:30px}.pilot-water-image{aspect-ratio:16/9;max-height:260px}.pilot-intro>.button{width:100%}#pilotprovning{scroll-margin-top:95px}}
 
