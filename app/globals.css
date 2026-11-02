@@ -64,7 +64,38 @@
 
 .person>div{min-width:0;width:100%}.person-email{display:block;margin-top:15px;font-size:.875rem;line-height:1.6;overflow-wrap:anywhere;color:var(--green)}.person-email:hover{text-decoration:underline}.person-contact{display:inline-flex;margin-top:14px;min-height:44px;padding:10px 18px;font-size:.875rem}.contact-leader{padding-bottom:24px;margin-bottom:24px;border-bottom:1px solid var(--line)}.contact-email{overflow-wrap:anywhere}
 
-/* Partner marks retain their original artwork and colours. */
+/* Let narrow screens and enlarged text reflow without clipping content. */
+main,footer{overflow-wrap:anywhere}
+h1,h2,h3,h4{overflow-wrap:anywhere;hyphens:auto}
+.button{max-width:100%;text-align:center;white-space:normal}
+.focus-grid>*,.vision-grid>*,.callout-grid>*,.article-layout>*,.network-layout>*,.carbon-invitation-grid>*{min-width:0}
+@media(max-width:700px){
+ .navigation{top:100%;max-height:calc(100vh - 90px);max-height:calc(100dvh - 90px);overscroll-behavior:contain}
+ .languages{gap:0}
+ .languages a{display:flex;align-items:center;justify-content:center;min-width:36px;min-height:44px;font-size:.8125rem;padding:6px 4px}
+ .header-inner{gap:8px}
+ .header-actions{gap:4px}
+ .brand>img{width:clamp(100px,30vw,150px)}
+ .header .brand{width:clamp(100px,30vw,150px);min-width:0}
+ .header .brand small{display:none}
+ .hero-buttons>.button{flex:1 1 180px}
+ .measurement-number{font-size:clamp(1.8rem,8.5vw,3rem);white-space:normal}
+ .measurement{padding:24px}
+ .contact-panel{padding:22px}
+ .film-caption>a{display:inline-flex;align-items:center;min-height:44px;white-space:normal}
+ .footer-links a{display:inline-flex;align-items:center;min-height:44px}
+ .footer-links{gap:4px 24px}
+}
+@media(max-width:600px){
+ .people-grid{grid-template-columns:minmax(0,1fr);gap:0}
+ .person{display:grid;grid-template-columns:clamp(72px,22vw,96px) minmax(0,1fr);align-items:start;gap:20px;padding:24px 0}
+ .person-portrait{width:100%;max-width:96px}
+ .person h3{font-size:1.5rem}
+ .person p,.person-email{font-size:.9375rem}
+ .person-contact{max-width:100%}
+}
+
+/* Invitation to collaborate. */
 .partner-invitation{padding:54px 0 60px;background:#f7f7f2;border-bottom:1px solid var(--line)}.partner-invitation h2{max-width:850px;font-size:clamp(2rem,3vw,3rem);margin-bottom:22px}.partner-invitation-body{max-width:760px;margin-bottom:28px;line-height:1.7}.hero h1{max-width:850px;font-size:clamp(2.8rem,4.7vw,4.7rem)}
 @media(max-width:700px){.partner-invitation{padding:38px 0}.hero h1{font-size:clamp(2.4rem,8vw,3.7rem)}}
 
